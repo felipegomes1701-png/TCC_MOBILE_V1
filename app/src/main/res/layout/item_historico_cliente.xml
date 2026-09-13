@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDataHoraHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00/00/0000 00:00"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#0066CC" />
+
+        <TextView
+            android:id="@+id/tvBarbeiroHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barbeiro: Carlos"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvServicoHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serviço: Corte de Cabelo"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvStatusHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Agendado"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
